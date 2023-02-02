@@ -32,7 +32,7 @@ def get_timestamp(time:dt, _format=TimestampFormat.SHORT_DATE_TIME) -> str:
 	if not isinstance(_format, TimestampFormat):
 		raise ValueError(f"The given format must be from the TimestampFormat enum class or a string with the raw format. Not {type(format).__name__}")
 	timestamp = int(time.timestamp())
-	return f"<t:{timestamp}:{_format.value()}>"
+	return f"<t:{timestamp}:{_format.value}>"
 
 
 def full_author_name(author) -> str:

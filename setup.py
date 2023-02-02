@@ -11,7 +11,7 @@ git_url = f"https://github.com/lwashington3/{project_name}"
 
 setup(
 	name=project_name,
-	version="1.0.1",
+	version="1.0.2",
 	author="Len Washington III",
 	description="Discord Bot Tools",
 	include_package_data=True,
